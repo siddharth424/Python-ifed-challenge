@@ -15,12 +15,14 @@ def by_Numpy(subset_elements,all_elements):
     print(len(verified_elements))
     print('Duration: {} seconds'.format(time.time() - start))
 
+
 by_Numpy.__doc__ = """
 This function finds number of common value from two lists using numpy
  """
+ 
 
 def bySets(subset_elements,all_elements):
-    """This function finds number of common value from two lists using numpy"""
+    #start of the function
     start = time.time()
 
     #convert lists to sets
@@ -33,6 +35,8 @@ def bySets(subset_elements,all_elements):
     # print number of elements common and time taken
     print(len(verified_elements))
     print('Duration: {} seconds'.format(time.time() - start))
+
+
 bySets.__doc__ = """
 This function finds number of common value from two lists by converting them to sets and finding number of intersection.
  """
