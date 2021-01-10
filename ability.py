@@ -13,3 +13,6 @@ def ability(pokemon):
         abilities.append(i['ability']['name'])
         
     return abilities
+ability.__doc__ = """
+    This function returns Abilities of a pokemon. """
+
